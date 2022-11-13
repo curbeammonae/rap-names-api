@@ -1,8 +1,9 @@
 const express = require('express') //since i know im using express for this App, i am going to make sure we have access to express
 const app = express()//storing express in 'app' variable. 'app' can just use all methods that come with express
+const cors = require('cors')
 const PORT = 8000
 /*first thing we do is setup server to hear request and respond*/
-const cors = require('cors')
+
 
 app.use(cors())
 
